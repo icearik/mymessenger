@@ -4,6 +4,7 @@ import { ChatEngine } from 'react-chat-engine'
 import { auth } from '../firebase'
 import axios from 'axios'
 import { useAuth } from '../contexts/AuthContext'
+
 const Chats = () => {
     const history = useHistory();
     const {user} = useAuth();
@@ -58,7 +59,7 @@ const Chats = () => {
     }, [user, history]);
   if (!user || loading) return 'loading';
   return (
-    <div className='chats-page'>
+    <div className='chats-page' style = {{background:'black'}}>
         <div className='nav-bar'>
             <div className='logo-tab'>
                 myMessenger

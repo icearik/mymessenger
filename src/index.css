@@ -18,22 +18,22 @@
 
 .nav-bar {
   width: 100%;
-  height: 66px;
-  background-color: #002766;
+  height: 50px;
+  background-color: #1b1825;
 }
 
 .logo-tab {
   position: absolute;
-  left: 22px;
-  top: 12px;
-  font-size: 32px;
+  left: 16px;
+  top: 8px;
+  font-size: 24px;
   font-weight: 700;
   color: white;
 }
 
 .logout-tab {
   position: absolute;
-  top: 22px;
+  top: 12px;
   right: 22px;
   color: white;
   cursor: pointer;
@@ -47,7 +47,7 @@
 /* Login Page */
 
 #login-page {
-  background-image: linear-gradient(#40a9ff, #096dd9);
+  background-image: linear-gradient(to bottom right,#c73bf1, #0e7cf1);
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -98,4 +98,103 @@
   position: relative;
   left: calc(50vw - 33px);
   top: calc(50vh - 22px);
+}
+
+.ce-chats-container {
+  background-color:#2C2F33 !important;
+  color:#99aab5 !important;
+  border-radius: 0px !important;
+}
+
+.ce-chat-form-container {
+  background-color:#2C2F33 !important;
+  color:#ffffff !important;
+}
+
+.ce-chat-card {
+  background-color:#2C2F33 !important;
+  border: 0px !important;
+  width: 85% !important;
+  margin: auto !important;
+}
+
+.ce-active-chat-card {
+  background-color:#525457 !important;
+}
+
+.ce-active-chat-card .ce-chat-title-text{
+  color:#ffffff !important;
+}
+
+.ce-chat-title-text {
+  color:#99aab5 !important;
+}
+
+.ce-chat-subtitle-text {
+  color:#99aab5 !important;
+}
+
+#new-chat-plus-button {
+  background-color: #18c02f !important;
+}
+
+#new-chat-plus-button svg{
+  color: white !important;
+}
+
+.ce-chat-unread-dot {
+  background-color: rgb(248, 78, 36);
+}
+
+.ce-settings {
+  background-color: #2C2F33 !important;
+}
+
+.ce-avatar {
+  border: 1px solid white !important;
+}
+
+.ce-section-title {
+  color:#99aab5 !important;
+}
+
+#ce-options-drop-down {
+  color:#99aab5 !important;
+}
+
+.ce-person-text {
+  color: white !important;
+}
+
+.ce-section-title:hover {
+  background-color:#525457 !important;
+}
+
+#ce-options-drop-down:hover {
+  background-color:#525457 !important;
+}
+
+.ce-input {
+  margin: 20px 0px 20px 0px;
+}
+
+.ce-my-message-bubble {
+  background-color:#87faaa !important;
+  color: black !important;
+}
+
+svg {
+  color: #99aab5 !important;
+}
+
+#ce-send-message-button {
+  background-color: #18c02f !important;
+}
+
+#ce-send-message-button svg{
+  color: white !important;
+}
+
+.ce-chat-title-container .ce-chat-title-text {
+  color:black !important;
 }
